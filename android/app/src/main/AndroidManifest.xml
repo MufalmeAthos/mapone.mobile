@@ -4,7 +4,11 @@
         android:label="mapone"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
-        <activity
+       <!-- TODO: Add your Google Maps API key here -->
+       <meta-data android:name="com.google.android.geo.API_KEY"
+           android:value="AIzaSyCP4jiUtiTyml_KULcOek2l2paK22r_HHk"/>
+
+       <activity
             android:name=".MainActivity"
             android:exported="true"
             android:launchMode="singleTop"
